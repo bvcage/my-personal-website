@@ -1,5 +1,10 @@
-body {
-    width: 100%;
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    padding: 10px;
 }
 
 nav ul {
@@ -7,11 +12,16 @@ nav ul {
     padding: 0px;
 }
 
-nav li {
+li.main-nav {
     display: inline-block;
     list-style: none;
-    padding-left: 0px;
-    margin-left: 0px;
+    width: 60px;
+    text-align: center;
+}
+
+li#main-nav-logo {
+    width: fit-content;
+    padding: 5px;
 }
 
 h1 {
