@@ -1,35 +1,16 @@
 * {
-    margin: 0px;
-    padding: 0px;
-}
-
-nav {
+    margin: 10px;
     padding: 10px;
-    text-align: center;
 }
 
-nav ul {
-    margin: 0px;
-    padding: 0px;
-}
-
-li.main-nav {
-    display: inline-block;
-    list-style: none;
-    width: 60px;
-    text-align: center;
-}
-
-li#main-nav-logo {
-    width: fit-content;
-    padding: 5px;
+body {
+    background-color: #fde1e0;
 }
 
 h1 {
-    margin-left: 0px;
-    padding-left: 0px;
+    font-family: 'Merriweather', serif;
 }
 
-a {
-    text-decoration: none;
+p {
+    font-family: 'Work Sans', sans-serif;
 }
